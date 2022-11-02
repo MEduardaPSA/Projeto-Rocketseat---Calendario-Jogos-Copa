@@ -12,7 +12,7 @@ function createCard(date, day, games){
     <div class="card">
         <h2 class="card-date">${date} <span>${day}</span></h2>
         <ul>
-            ${games};
+            ${games}
         </ul>
     </div> `
 }
@@ -27,18 +27,18 @@ document.querySelector("#app").innerHTML = `
         createGame('uruguay-flag', '10:00', 'south-korea-flag') + 
         createGame('portugal-flag', '13:00', 'ghana-flag') +
         createGame('brazil-flag', '16:00', 'serbia-flag')
-        )};
+        )}
 
         ${createCard('28/11', 'Segunda',
         createGame('south-korea-flag', '10:00', 'ghana-flag') +
         createGame('brazil-flag', '13:00', 'switzerland-flag') +
         createGame('portugal-flag', '16:00', 'uruguay-flag')
         
-        )};
+        )}
 
         ${createCard('02/12', 'Sexta',
         createGame('ghana-flag', '12:00', 'uruguay-flag') +
         createGame('brazil-flag', '16:00', 'cameroon-flag')
         
-        )};
+        )}
     </main> `

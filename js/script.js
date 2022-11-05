@@ -35,5 +35,9 @@ document.querySelector("#cards").innerHTML =
 
         createCard('02/12', 'Sexta',
         createGame('ghana-flag', '12:00', 'uruguay-flag') +
-        createGame('brazil-flag', '16:00', 'cameroon-flag'))
+        createGame('brazil-flag', '16:00', 'cameroon-flag')) +
+
+        createCard('01/12', 'Quinta',
+        createGame('croatia-flag', '12:00', 'belgium-flag') +
+        createGame('costaRica-flag', '16:00', 'germany-flag'))
         
